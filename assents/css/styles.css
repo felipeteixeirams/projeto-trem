@@ -1,0 +1,173 @@
+/*     GERAL
+**************************/
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-style: normal;
+    background-color: #161616;
+    color: #ffffff;
+}
+
+address {
+    font-style: normal;
+}
+
+footer {
+    position: relative;
+    background-color: #111111;
+    min-height: 250px;
+    margin: 0px;
+}
+
+.section-backgroud {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+/*     HEADER
+**************************/
+
+.main-header {
+    position: relative;
+}
+
+.header-video {
+    width: 100%;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #3b3b3b;
+    z-index: 10;
+}
+
+.navigation-list {
+    padding: 0;
+}
+
+.navigation-list-item {
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav-link {
+    color: write;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.8s
+}
+
+.nav-link:hover {
+    transition: 0.5s;
+    color: #0079d0;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+}
+
+
+/*     O LUGAR
+**************************/
+
+.lugar {
+    background-image: url(../img/bar_interior.jpg);
+}
+
+
+/*     NOSSOS LINKS
+**************************/
+
+.drinks {
+    background-image: url(../img/drinks_background.jpg)
+}
+
+
+/*     FOOTER
+**************************/
+
+.col-2 {
+    display: inline-block;
+    width: 30%;
+    min-width: 300px;
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+    vertical-align: top;
+    line-height: 13px
+}
+
+.map {
+    text-align: right
+}
+nav.navigation a:visited, a:link {
+    color: white
+}
+
+.fundo-translucido {
+    background-color: rgba(00, 00, 00, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+
+article {
+    background-color: rgba(00, 00, 00, 0.8);
+    padding: 1px 25px;
+    font-size: 1.1em;
+    line-height: 28px
+}
+
+header h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+footer h1 {
+    margin-bottom: 35px
+}
+
+
+
+section header {
+    margin-top: 50px
+}
+
+article p {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+figure {
+    display: inline-block;
+}
+
+figure img {
+    border: 5px solid gray;
+    transition: 1.5s
+}
+
+figure img:hover {
+    transition: 1s;
+    border-color: red
+}
+
+figurecaption {
+    display: none
+}
