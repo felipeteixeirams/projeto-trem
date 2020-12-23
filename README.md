@@ -1,5 +1,5 @@
-# projeto-trem
-Um dos projeto de página única desenvolvido no curso de Front-end básico da TreinaWeb, foi utilizado HTML e CSS simples.
+<h1>Página de Bar em um Trem 🍹🥂</h1>
+Proposta: Página única com várias seções, construido utilizando Padrões Web.
 
-# Para visualiza-lo
-Baixe todos os arquivos em uma pasta e execute o Index.html ou utilize uma ferramenta de Live Preview de sua preferência.
+<h2>Para visualiza-lo 🔍</h2>
+Baixe todos os arquivos e execute o arquivo Index.html.
